@@ -1,0 +1,21 @@
+# Godot editor cache
+.godot/
+
+# Exported builds
+build/
+export/
+*.pck
+*.zip
+
+# Bundled engine binary
+tools/*.exe
+tools/editor_data/
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+*.key
+*.pem

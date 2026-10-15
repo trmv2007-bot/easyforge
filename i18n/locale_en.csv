@@ -1,0 +1,180 @@
+key	text
+app_title	EasyForge
+tagline	Describe a game. Watch it come alive.
+new_project	New Game
+demo_project	Play the Demo
+describe_prompt	"Describe your game in plain English (e.g. ""a 3D platformer where you collect coins and dodge enemies"")"
+generate	Build with AI
+play	Play
+stop	Stop
+export	Export Game
+bricks	Bricks
+code	Code
+settings	Settings
+language	Language
+ai_provider	AI Provider
+api_key	API Key
+test_key	Test Key
+get_key	Get a free key
+key_ok	Key works!
+key_bad	Key rejected — check you copied the whole key.
+key_testing	Testing key...
+save	Save
+load	Load
+help	Help
+tutorial_start	Start Tutorial
+tutorial_welcome	Welcome to EasyForge! This demo uses all 5 core bricks. Press Play, then tweak a brick and watch the game change.
+score	Score
+you_win	YOU WIN!
+game_over	Game Over
+no_key_title	Add your AI key
+no_key_body	Get a free key from NVIDIA, then paste it here. Or play the demo with no key at all.
+brick_add	Add Brick
+brick_comment	Your note to the AI about this brick:
+brick_connected	Connected to:
+brick_nothing	Nothing connected yet
+graph_empty	No bricks yet — describe a game above, or add bricks from the palette.
+validate_no_spawn	Add a Spawn brick so your game has something in it.
+ai_thinking	AI is designing your game... this takes 1-3 minutes, don't close the app
+ai_failed	The AI couldn't build that. Try describing it differently.
+export_done	Game exported! Share the file with anyone.
+close	Close
+cancel	Cancel
+ok	OK
+recommended	(Recommended)
+brick_copy	Copy
+brick_paste	Paste
+brick_duplicate	Duplicate
+brick_delete	Delete
+brick_copied	Copied
+brick_pasted	Pasted
+brick_settings	Settings
+ai_edit	Edit with AI
+ai_edit_placeholder	"e.g. ""add an enemy"" or ""make it harder"""
+ai_edit_apply	Apply
+undo	Undo
+ai_edit_done	AI updated your game. Press Play to try it.
+ai_edit_nothing	The AI couldn't apply that change. Try rephrasing.
+undo_done	Reverted the last AI change.
+redo	Redo
+search_bricks	Search bricks…
+search_no_bricks	No bricks match. Try another word.
+suggest_next	Try adding:
+export_web	Publish to Web
+export_web_tip	Build a browser-playable version you can share as a link
+export_web_running	Building the web version... this takes a minute.
+export_web_done	Web version built! Opening the build/web folder.
+export_web_notemplates	"Web export needs the Godot web templates (one-time download). Run: godot --headless --export-release ""Web"" build/web/index.html after installing them from godotengine.org."
+export_web_no_source	Publish to Web needs the EasyForge folder that still has its project files (tools/ and project.godot). Run EasyForge from that folder and try again.
+export_web_templates_missing	The web build needs Godot's web templates (a one-time download): open the Godot editor, then Project > Manage Export Templates > Download and Install, and try again.
+export_web_failed	The web build stopped with an error. Try again; if it keeps failing, run the same export from the Godot editor to see the details.
+export_web_readme	{game} - made with EasyForge. Browsers block games opened straight from disk, so either: 1) upload this whole folder to any static host (itch.io works great) and share the link; or 2) run a small local web server in this folder and open the address it prints. Made with EasyForge.
+preview_live	Live preview — press Play for full window
+redo_done	Redid that change.
+added_brick	Added:
+added_brick_hint	Connect it to another brick to say what happens next.
+brick_deleted	Brick deleted. Press Undo to get it back.
+pick_brick_first	Click a brick first, then press that key.
+rename_brick	Name this brick
+rename_brick_tip	Pick a name that makes sense to you
+wire_connected	Connected. Now press Play to see it work.
+wire_rejected	Those two bricks can't be connected. Try another pair.
+wire_removed	Connection removed.
+saved_ok	Saved!
+restored_project	Welcome back to your game
+backed_up	your earlier game is safe under Open
+autosave	Last autosave
+open_project	Open saved game
+opened	Opened
+open_failed	Couldn't open that one.
+open_none	No saved games yet. Press Ctrl+S to save.
+ai_draft_done	Your game is ready — press Play to try it!
+tidy_ai	Tidy with AI
+tidy_ai_tip	Ask the AI to fix the wiring so your game runs properly
+help_title	How EasyForge works
+help_1	1. Describe your game in plain words at the top left, then press Build with AI.
+help_2	2. Your game appears as bricks on the canvas. Each brick does one thing, like moving or counting points.
+help_3	3. Drag from the right side of one brick to the left side of another to say what happens next.
+help_4	4. Press Play to try your game right here. Press Esc or Stop to go back to editing.
+help_5	"5. Want a change? Type it in the Edit with AI box, for example ""make it harder""."
+help_shortcuts	Keys: Ctrl+Z undo, Ctrl+Shift+Z redo, Ctrl+C copy, Ctrl+V paste, Ctrl+D duplicate, Ctrl+S save, Delete removes a brick, Esc stops the game, + / - / 0 zoom, WASD or arrow keys pan the canvas.
+help_tip	Nothing here is final — every brick can be changed or removed later.
+export_game_copying	Copying the player so your game runs on its own...
+export_game_done	Your game is ready to send! The folder is opening now.
+export_game_failed_copy	Couldn't copy the game files. Close any window using them and try again.
+export_game_failed_dir	Couldn't create the folder for your game. Check your disk space and try again.
+export_game_failed_save	Couldn't save your game into that folder. Try again.
+export_game_incomplete	The exported folder is missing a file. Press the rocket button again.
+export_game_no_player	Couldn't find the game player inside EasyForge. Run EasyForge from its own folder, then try again.
+export_game_readme	How to play {game}: double-click {game}.exe on any Windows PC — no install, no internet needed. Press Esc to stop. Made with EasyForge.
+export_game_tip	Make a game file you can send to a friend — double-click and play
+export_game_writing	Saving your game...
+quit	Quit the game
+save_failed	Couldn't save that. Try again.
+save_game_file_tip	Save your game file
+ai_model	AI Model
+
+ai_edit_needed	Tell the AI what to change first.
+lives	Lives
+
+net_error	Could not reach the AI. Check your internet.
+provider_error	The AI provider returned error %d.
+model_unavailable	That model name is not available. Open Settings and pick or type another one.
+rate_limited	The free limit was reached. Wait a minute, then try again.
+bad_reply	The AI sent back something unreadable. Try again.
+model_custom	…or type a model name from your provider
+
+ai_thinking_empty	this model thinks before answering, so it may need more time
+ai_cut_off	The AI ran out of room before finishing. Try a shorter idea, or pick a faster model in Settings.
+
+describe_short	Describe your game
+manual_title	Manual
+manual_tip	Open the Manual — every brick, every setting, F1
+open_manual_page	Read about this brick
+related_bricks	Works well with
+name_game	Name your game
+name_game_tip	This becomes the window title, the save file, and the name of the game you share.
+dimension_2d	2D (flat)
+dimension_3d	3D (solid)
+dimension_now	The game is now
+dimension_tip	A flat side-scroller, or a world you can walk around in. Switch any time — your bricks stay.
+generate_tip	Turn what you typed into bricks you can edit
+new_short	New
+open_short	Open
+save_short	Save
+share_short	Share
+web_short	Web
+problems_title	What needs fixing
+problems_click_hint	press a line to find that brick
+problem_error_tip	This one stops Play
+problem_warn_tip	A hint — Play still works, but it may not behave as you expect
+problem_jump_tip	Press to select and show the brick this is about
+canvas_empty	Nothing here yet. Press a brick on the left to add it, or type your idea and make a game.
+canvas_empty_play	There is nothing to play yet — add a Character brick first.
+play_build_failed	This could not be built into a game — the list under the canvas says why.
+search_bricks_tip	Searches every brick, including the hidden specialist ones — try 'die', 'bad guy' or 'menu'
+search_try_words	Try a plain word for what you want: 'jump', 'die', 'coin', 'menu'.
+show_every_brick	Show every brick
+show_every_brick_tip	Tick this to list the specialist bricks (lighting, physics, prefabs) in the palette too.
+show_more_bricks	Show the specialist bricks
+fit_view_tip	Fit the whole game on screen
+zoom_in_tip	Zoom in
+zoom_out_tip	Zoom out
+tidy_layout_tip	Arrange the bricks in reading order
+tidy_layout_done	Bricks laid out in the order your game runs them
+node_settings_tip	Show and change this brick's settings
+brick_comment_tip	A note to yourself. The AI reads it when you ask for changes.
+add_these_bricks	Add these bricks
+recipe_undo_hint	Ctrl+Z takes it back.
+tutorial_try_recipes	Show me the recipes
+language_applies_note	Language saved. The buttons update the next time EasyForge opens; your game's own text never changes.
+blank_project	Start from nothing
+blank_project_pitch	An empty canvas: add the bricks yourself, one at a time.
+prompt_hint	Your game, in one sentence
+chat_hint	Ask for one change
+preview_click_hint	click to play
+canvas_wire_hint	Drag from a port on the right of one brick to a port on the left of the next. Double-click empty space to add a brick.
+offline_no_key	No AI key, so this game was laid out from EasyForge's own genre library
+offline_after_ai	The AI could not deliver, so these bricks came from EasyForge's own genre library
+offline_guessed	I could not tell which genre that is, so I started with
+open_now	open now

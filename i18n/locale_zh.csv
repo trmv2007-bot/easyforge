@@ -1,0 +1,180 @@
+key	text
+app_title	EasyForge
+tagline	描述一个游戏，看它活灵活现。
+new_project	新游戏
+demo_project	试玩演示
+describe_prompt	"用简单的话描述你的游戏（例如""一个收集金币的3D平台游戏""）"
+generate	用AI生成
+play	开始
+stop	停止
+export	导出游戏
+bricks	积木
+code	代码
+settings	设置
+language	语言
+ai_provider	AI提供商
+api_key	API密钥
+test_key	测试密钥
+get_key	获取免费密钥
+key_ok	密钥可用！
+key_bad	密钥被拒绝——请检查是否复制完整。
+key_testing	正在测试密钥...
+save	保存
+load	加载
+help	帮助
+tutorial_start	开始教程
+tutorial_welcome	欢迎使用EasyForge！这个演示使用了全部5个核心积木。点击开始，然后修改一个积木，观察游戏变化。
+score	得分
+you_win	你赢了！
+game_over	游戏结束
+no_key_title	添加你的AI密钥
+no_key_body	从NVIDIA获取免费密钥并粘贴到此处。或者无需密钥直接试玩演示。
+brick_add	添加积木
+brick_comment	你对这个积木给AI的备注：
+brick_connected	连接到：
+brick_nothing	尚未连接
+graph_empty	还没有积木——在上方描述游戏，或从面板添加积木。
+validate_no_spawn	"添加一个""生成""积木，让游戏里有东西。"
+ai_thinking	AI正在设计你的游戏...
+ai_failed	AI无法生成。请换种方式描述。
+export_done	游戏已导出！把文件分享给任何人。
+close	关闭
+cancel	取消
+ok	确定
+recommended	（推荐）
+brick_copy	复制
+brick_paste	粘贴
+brick_duplicate	复制副本
+brick_delete	删除
+brick_copied	已复制
+brick_pasted	已粘贴
+brick_settings	设置
+ai_edit	用AI修改
+ai_edit_placeholder	例如「添加一个敌人」或「让它更难」
+ai_edit_apply	应用
+undo	撤销
+ai_edit_done	AI已经改好你的游戏。点击开始试一试。
+ai_edit_nothing	AI没能应用这个改动。换个说法试试。
+undo_done	已撤销AI的上一次改动。
+redo	重做
+search_bricks	搜索积木…
+search_no_bricks	没有匹配的积木。换个词试试。
+suggest_next	试着添加：
+export_web	发布到网页
+export_web_tip	生成可以在浏览器里玩的版本，用链接就能分享
+export_web_running	正在生成网页版……需要一分钟。
+export_web_done	网页版已生成！正在打开 build/web 文件夹。
+export_web_notemplates	"网页导出需要 Godot 的网页模板（只需下载一次）。从 godotengine.org 安装好后运行：godot --headless --export-release ""Web"" build/web/index.html"
+export_web_no_source	发布到网页需要包含 project.godot 和 tools/ 的 EasyForge 项目文件夹。请从该文件夹运行 EasyForge 后重试。
+export_web_templates_missing	网页版需要 Godot 的网页导出模板（只需下载一次）：在 Godot 编辑器中打开「项目」→「管理导出模板」→「下载并安装」，然后重试。
+export_web_failed	网页版构建因错误停止。请重试；如果一直失败，请在 Godot 编辑器中执行同样的导出以查看详情。
+export_web_readme	{game} —— 用 EasyForge 制作。浏览器不允许直接打开硬盘上的游戏：1) 把整个文件夹上传到任意静态托管（itch.io 很合适）并分享链接；或 2) 在此文件夹启动一个小型本地网页服务器，然后打开它显示的地址。
+preview_live	实时预览——点击开始即可全屏显示
+redo_done	已重做刚才的改动。
+added_brick	已添加：
+added_brick_hint	把它和别的积木连起来，就能说明接下来做什么。
+brick_deleted	积木已删除。按撤销可以找回。
+pick_brick_first	先点一块积木，再按这个键。
+rename_brick	给这块积木起个名字
+rename_brick_tip	起一个你自己看得懂的名字
+wire_connected	已连接。现在点击开始看看效果。
+wire_rejected	这两块积木连不到一起。换一对试试。
+wire_removed	已移除连接。
+saved_ok	已保存！
+restored_project	欢迎回来，这是你的游戏
+backed_up	你之前的游戏已保存，可在「打开」里找到
+autosave	最近自动保存
+open_project	打开已保存的游戏
+opened	已打开
+open_failed	打不开那个游戏。
+open_none	还没有保存的游戏。按 Ctrl+S 保存。
+ai_draft_done	你的游戏做好了！点击开始试试。
+tidy_ai	用AI整理
+tidy_ai_tip	让AI把连线理顺，游戏就能正常运行
+help_title	EasyForge 怎么用
+help_1	1. 在左上方用大白话描述你的游戏，然后点用AI生成。
+help_2	2. 游戏会变成画布上的积木。每块积木只管一件事，比如移动或算分。
+help_3	3. 从一块积木的右边拖到另一块的左边，就能说明接下来发生什么。
+help_4	4. 点击开始就能在这里试玩。按 Esc 或停止就回到编辑。
+help_5	5. 想改动？在「用AI修改」框里写一句，比如「更难一点」。
+help_shortcuts	按键：Ctrl+Z 撤销，Ctrl+Shift+Z 重做，Ctrl+C 复制，Ctrl+V 粘贴，Ctrl+D 复制副本，Ctrl+S 保存，Delete 删除积木，Esc 停止游戏，+ / - / 0 缩放，WASD 或方向键移动画布。
+help_tip	这里没有什么是定死的——任何积木之后都能改或删。
+export_game_copying	正在复制运行程序，让你的游戏能独立运行...
+export_game_done	你的游戏可以发送了！文件夹正在打开。
+export_game_failed_copy	无法复制游戏文件。请关闭使用它们的窗口后重试。
+export_game_failed_dir	无法为你的游戏创建文件夹。请检查磁盘空间后重试。
+export_game_failed_save	无法把游戏保存到那个文件夹。请重试。
+export_game_incomplete	导出的文件夹里少了一个文件。请再点一次火箭按钮。
+export_game_no_player	在 EasyForge 里找不到游戏播放器。请从 EasyForge 自己的文件夹运行后再试。
+export_game_readme	《{game}》玩法：在任何 Windows 电脑上双击 {game}.exe 就能玩，不用安装，也不用上网。按 Esc 退出。由 EasyForge 制作。
+export_game_tip	生成可以发给朋友的游戏文件——双击就能玩
+export_game_writing	正在保存你的游戏...
+quit	退出游戏
+save_failed	保存失败。请重试。
+save_game_file_tip	保存你的游戏文件
+ai_model	AI模型
+
+ai_edit_needed	请先告诉 AI 你想改什么。
+lives	生命
+
+net_error	无法连接 AI。请检查网络。
+provider_error	AI 服务商返回错误 %d。
+model_unavailable	该模型不可用。打开设置，选择或输入另一个。
+rate_limited	已达到免费额度。等一分钟再试。
+bad_reply	AI 返回了无法读出的内容。请重试。
+model_custom	…或输入你服务商的模型名
+
+ai_thinking_empty	该模型回答前会思考，可能更慢
+ai_cut_off	AI 没写完就被截断了。试试更简单的想法，或在设置里选更快的模型。
+
+describe_short	描述你的游戏
+manual_title	使用手册
+manual_tip	打开手册——每块积木、每个设置，按 F1
+open_manual_page	读读这块积木的说明
+related_bricks	常和这些搭配
+name_game	给你的游戏起个名字
+name_game_tip	它会成为窗口标题、存档文件名，以及你分享出去的游戏名字。
+dimension_2d	2D（平面）
+dimension_3d	3D（立体）
+dimension_now	游戏现在是
+dimension_tip	横版平面游戏，还是可以四处走的立体世界。随时可切换，你的积木不会丢。
+generate_tip	把你写的变成可以编辑的积木
+new_short	新建
+open_short	打开
+save_short	保存
+share_short	分享
+web_short	Web（网页）
+problems_title	需要修正的地方
+problems_click_hint	点一行就跳到那块积木
+problem_error_tip	这一条会挡住运行
+problem_warn_tip	只是个提示——仍然可以运行，但表现可能和你想的不一样
+problem_jump_tip	点一下就能选中并显示相关积木
+canvas_empty	这里还什么都没有。点左边的积木就能加上，或者写下你的点子。
+canvas_empty_play	现在没有可玩的内容——先加一个角色积木。
+play_build_failed	没能做成可玩的游戏——画布下面的列表写着原因。
+search_bricks_tip	搜索全部积木，包括被收起的专业积木——试试“死亡”“敌人”“菜单”
+search_try_words	用简单的话说你想要的：跳跃、死亡、金币、菜单。
+show_every_brick	显示全部积木
+show_every_brick_tip	勾选后，灯光、物理、预制体这些专业积木也会列出来。
+show_more_bricks	显示专业积木
+fit_view_tip	把整个游戏放进屏幕
+zoom_in_tip	放大
+zoom_out_tip	缩小
+tidy_layout_tip	把积木按阅读顺序排好
+tidy_layout_done	已按游戏的运行顺序排好积木
+node_settings_tip	展开并修改这块积木的设置
+brick_comment_tip	给自己的备注。AI在你要求修改时会读它。
+add_these_bricks	添加这些积木
+recipe_undo_hint	Ctrl+Z 可以撤销。
+tutorial_try_recipes	给我看配方
+language_applies_note	语言已保存。按钮文字会在下次启动时更新；游戏里的文字不受影响。
+blank_project	从零开始
+blank_project_pitch	空白画布：自己一块一块地加积木。
+prompt_hint	一句话描述你的游戏
+chat_hint	说一个要改的地方
+preview_click_hint	点击即玩
+canvas_wire_hint	从一个积木右边的接口拖到下一个积木左边的接口。在空白处双击可以加积木。
+offline_no_key	没有AI密钥，所以这个游戏是用EasyForge自带的类型库搭出来的
+offline_after_ai	AI没给出结果，这些积木来自EasyForge自带的类型库
+offline_guessed	我拿不准这是哪个类型，先按这个来：
+open_now	已打开

@@ -1,0 +1,180 @@
+key	text
+app_title	EasyForge
+tagline	ゲームを説明してください。それが動き出します。
+new_project	新しいゲーム
+demo_project	デモを遊ぶ
+describe_prompt	ゲームを簡単な言葉で説明してください（例：「コインを集める3Dプラットフォーマー」）
+generate	AIで作る
+play	プレイ
+stop	停止
+export	ゲームを書き出す
+bricks	ブロック
+code	コード
+settings	設定
+language	言語
+ai_provider	AIプロバイダー
+api_key	APIキー
+test_key	キーをテスト
+get_key	無料キーを取得
+key_ok	キーが有効です！
+key_bad	キーが拒否されました — 全体をコピーしたか確認してください。
+key_testing	キーをテスト中...
+save	保存
+load	読み込み
+help	ヘルプ
+tutorial_start	チュートリアルを開始
+tutorial_welcome	EasyForgeへようこそ！このデモは5つの基本ブロックを使います。プレイを押して、ブロックを変えるとゲームが変わります。
+score	スコア
+you_win	あなたの勝ち！
+game_over	ゲームオーバー
+no_key_title	AIキーを追加
+no_key_body	NVIDIAで無料キーを取得してここに貼り付けてください。またはキーなしでデモを遊べます。
+brick_add	ブロックを追加
+brick_comment	このブロックについてAIへのメモ：
+brick_connected	接続先：
+brick_nothing	まだ接続なし
+graph_empty	ブロックがまだありません — 上でゲームを説明するか、パレットから追加してください。
+validate_no_spawn	スポーンブロックを追加して、ゲームに何かを出しましょう。
+ai_thinking	AIがゲームを設計しています...
+ai_failed	AIでは作成できませんでした。別の言い方で説明してください。
+export_done	ゲームを書き出しました！ファイルを誰とでも共有できます。
+close	閉じる
+cancel	キャンセル
+ok	OK
+recommended	（推奨）
+brick_copy	コピー
+brick_paste	貼り付け
+brick_duplicate	複製
+brick_delete	削除
+brick_copied	コピーしました
+brick_pasted	貼り付けました
+brick_settings	設定
+ai_edit	AIで編集
+ai_edit_placeholder	例：「敵を追加」や「もっと難しくして」
+ai_edit_apply	適用
+undo	元に戻す
+ai_edit_done	AIがゲームを更新しました。プレイを押して試してみてください。
+ai_edit_nothing	AIはその変更を適用できませんでした。言い方を変えてみてください。
+undo_done	AIの最後の変更をもとに戻しました。
+redo	やり直し
+search_bricks	ブロックを検索…
+search_no_bricks	一致するブロックがありません。別の言葉で試してみてください。
+suggest_next	次はこれを追加：
+export_web	Webに公開
+export_web_tip	ブラウザで遊べるバージョンを作り、リンクで共有できます
+export_web_running	Webバージョンを作成しています... 1分かかります。
+export_web_done	Webバージョンが完成しました！build/web フォルダを開きます。
+export_web_notemplates	"Web書き出しにはGodotのWebテンプレートが必要です（1回のダウンロード）。godotengine.org からインストールしてから、次を実行してください: godot --headless --export-release ""Web"" build/web/index.html"
+export_web_no_source	Web公開には project.godot と tools/ を含む EasyForge フォルダが必要です。そのフォルダから EasyForge を起動して再試行してください。
+export_web_templates_missing	Webビルドには Godot のWebテンプレートが必要です(初回のみダウンロード)。Godot エディターで「プロジェクト」→「エクスポートテンプレートの管理」→「ダウンロードしてインストール」を選んでから再試行してください。
+export_web_failed	Webビルドはエラーで停止しました。もう一度お試しください。続く場合は Godot エディターから同じエクスポートを実行して詳細を確認してください。
+export_web_readme	{game} — EasyForge で制作。ブラウザはディスクから直接開いたゲームをブロックします。1) このフォルダごと itch.io などの静的ホスティングにアップロードしてリンクを共有、または 2) このフォルダで小さなローカルWebサーバーを起動して表示されたアドレスを開いてください。
+preview_live	ライブプレビュー — プレイを押すと全画面になります
+redo_done	やり直しました。
+added_brick	追加しました：
+added_brick_hint	ほかのブロックとつなぐと、次に何が起きるかを決められます。
+brick_deleted	ブロックを削除しました。元に戻すを押すと復活します。
+pick_brick_first	まずブロックをクリックしてから、そのキーを押してください。
+rename_brick	ブロックに名前をつける
+rename_brick_tip	自分に分かる名前を付けてください
+wire_connected	つながりました。プレイを押して動くか確かめましょう。
+wire_rejected	この2つのブロックは結べません。別の組み合わせでためしてみてください。
+wire_removed	つながりを解除しました。
+saved_ok	保存しました！
+restored_project	前回のゲームを開きました
+backed_up	さっきのゲームは「開く」に残しています
+autosave	最新の自動保存
+open_project	保存したゲームを開く
+opened	開きました
+open_failed	そのファイルは開けませんでした。
+open_none	保存されたゲームはまだありません。Ctrl+Sで保存してください。
+ai_draft_done	ゲームができました！プレイを押して試してみてください。
+tidy_ai	AIで整える
+tidy_ai_tip	AIにつなぎ目を整えさせて、ゲームが動くようにします
+help_title	EasyForgeの使い方
+help_1	1. 左上にゲームを簡単な言葉で書いて、AIで作るを押します。
+help_2	2. ゲームはブロックとして画面に並びます。ブロック1つが1つの役割を持ちます。移動やスコアなどです。
+help_3	3. ブロックの右側から別のブロックの左側へ線を引くと、次に何が起きるかを決められます。
+help_4	4. プレイを押すとこの場で遊べます。Escか停止で編集に戻ります。
+help_5	5. 変更したいときはAIで編集の欄に「もっと難しくして」などと書いてください。
+help_shortcuts	キー：Ctrl+Z 元に戻す、Ctrl+Shift+Z やり直し、Ctrl+C コピー、Ctrl+V 貼り付け、Ctrl+D 複製、Ctrl+S 保存、Delete でブロック削除、Esc でゲーム停止、+ / - / 0 でズーム、WASDや矢印で画面を移動。
+help_tip	どのブロックも、あとから変更も削除ができます。やり直せば大丈夫です。
+export_game_copying	ゲームを単独で動かせるよう、実行ファイルをコピーしています...
+export_game_done	ゲームは送る準備ができました！フォルダを開いています。
+export_game_failed_copy	ゲームのファイルをコピーできませんでした。使用中のウィンドウを閉じてもう一度お試しください。
+export_game_failed_dir	ゲーム用のフォルダを作れませんでした。空き容量を確認してもう一度お試しください。
+export_game_failed_save	そのフォルダにゲームを保存できませんでした。もう一度お試しください。
+export_game_incomplete	書き出したフォルダにファイルが1つ足りません。ロケットボタンをもう一度押してください。
+export_game_no_player	EasyForge の中にゲームの実行ファイルが見つかりませんでした。EasyForge を自身のフォルダから起動して再試行してください。
+export_game_readme	『{game}』の遊び方：Windowsのパソコンで {game}.exe をダブルクリックするだけです。インストールもインターネットも不要です。やめるときは Esc を押してください。EasyForge で作成しました。
+export_game_tip	友達に送れるゲームファイルを作ります — ダブルクリックで遊べます
+export_game_writing	ゲームを保存しています...
+quit	ゲームを終了
+save_failed	保存できませんでした。もう一度お試しください。
+save_game_file_tip	ゲームファイルを保存する
+ai_model	AIモデル
+
+ai_edit_needed	まず、何を変えたいかを入力してね。
+lives	ライフ
+
+net_error	AIに接続できませんでした。ネット環境を確認して。
+provider_error	AIプロバイダがエラー %d を返しました。
+model_unavailable	そのモデルは使えません。設定で別のものを選ぶか入力して。
+rate_limited	無料の上限に達しました。1分おいて再度どうぞ。
+bad_reply	AIの中身が読めませんでした。もう一度どうぞ。
+model_custom	…または自分のプロバイダのモデル名を入力
+
+ai_thinking_empty	このモデルは答える前に考えるのでもっと時間がかかります
+ai_cut_off	AIは書き終わる前に文字数切れになりました。もっと短いアイデアで試すか、設定で速いモデルを選んで。
+
+describe_short	ゲームを説明して
+manual_title	マニュアル
+manual_tip	マニュアルを開く — すべてのブロックと設定、F1
+open_manual_page	このブロックの説明を読む
+related_bricks	相性のいいブロック
+name_game	ゲームに名前をつける
+name_game_tip	ウィンドウのタイトル、保存ファイル、共有するゲームの名前になります。
+dimension_2d	2D（平面）
+dimension_3d	3D（立体）
+dimension_now	ゲームはこれから
+dimension_tip	横スクロールの平面ゲームか、歩き回れる立体ワールドか。いつでも切り替えられ、ブロックは残ります。
+generate_tip	入力した内容を、編集できるブロックに変換します
+new_short	新規
+open_short	開く
+save_short	保存
+share_short	共有
+web_short	Web（ブラウザ）
+problems_title	直すところ
+problems_click_hint	行を押すと該当ブロックへ
+problem_error_tip	これが原因でプレイできません
+problem_warn_tip	ヒントです — プレイはできますが、思い通りに動かないかもしれません
+problem_jump_tip	押すと該当のブロックを選んで見せます
+canvas_empty	まだ何もありません。左のブロックを押すと追加できます。アイデアを書くこともできます。
+canvas_empty_play	まだプレイできるものはありません。まずキャラクターのブロックを追加してください。
+play_build_failed	ゲームとして組み立てられませんでした — キャンバス下のリストに理由があります。
+search_bricks_tip	隠れている専門ブロックも含めて全部検索します —「死ぬ」「敵」「メニュー」など
+search_try_words	簡単な言葉で入力してください：「ジャンプ」「死ぬ」「コイン」「メニュー」。
+show_every_brick	すべてのブロックを表示
+show_every_brick_tip	チェックすると、照明・物理・テンプレートなどの専門ブロックも一覧に出ます。
+show_more_bricks	専門ブロックを表示
+fit_view_tip	ゲーム全体を画面に収める
+zoom_in_tip	拡大
+zoom_out_tip	縮小
+tidy_layout_tip	ブロックを読みやすい順に並べる
+tidy_layout_done	ゲームが動く順にブロックを並べ替えました
+node_settings_tip	このブロックの設定を表示して変更
+brick_comment_tip	自分向けのメモです。変更を求める際にAIが読みます。
+add_these_bricks	このブロックを追加
+recipe_undo_hint	Ctrl+Z で取り消せます。
+tutorial_try_recipes	レシピを見せて
+language_applies_note	言語を保存しました。ボタンの表示は次回起動時に変わります。ゲーム内の文章は変わりません。
+blank_project	何もない状態から始める
+blank_project_pitch	空のキャンバス。ブロックをひとつずつ自分で追加します。
+prompt_hint	あなたのゲームを一文で
+chat_hint	変更をひとつ依鼴
+preview_click_hint	クリックでプレイ
+canvas_wire_hint	ブロックの右のポートから次のブロックの左のポートへドラッグ。何もない場所をダブルクリックすると追加できます。
+offline_no_key	AIキーがないため、EasyForge内藏のジャンルライブラリから組み立てました
+offline_after_ai	AIが応答できなかったため、EasyForge内藏のジャンルライブラリを使いました
+offline_guessed	ジャンルを判別できなかったので、こちらから始めます：
+open_now	開いたもの

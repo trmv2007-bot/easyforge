@@ -1,0 +1,180 @@
+key	text
+app_title	EasyForge
+tagline	Décrivez un jeu. Regardez-le prendre vie.
+new_project	Nouveau jeu
+demo_project	Jouer la démo
+describe_prompt	"Décrivez votre jeu en termes simples (ex. ""un platformer 3D où je collecte des pièces"")"
+generate	Créer avec l'IA
+play	Jouer
+stop	Arrêter
+export	Exporter le jeu
+bricks	Briques
+code	Code
+settings	Paramètres
+language	Langue
+ai_provider	Fournisseur d'IA
+api_key	Clé API
+test_key	Tester la clé
+get_key	Obtenir une clé gratuite
+key_ok	La clé fonctionne !
+key_bad	Clé refusée — vérifiez que vous avez copié la clé entière.
+key_testing	Test de la clé...
+save	Enregistrer
+load	Charger
+help	Aide
+tutorial_start	Démarrer le tutoriel
+tutorial_welcome	Bienvenue sur EasyForge ! Cette démo utilise les 5 briques principales. Appuyez sur Jouer, puis modifiez une brique et voyez le jeu changer.
+score	Score
+you_win	VOUS AVEZ GAGNÉ !
+game_over	Partie terminée
+no_key_title	Ajoutez votre clé IA
+no_key_body	Obtenez une clé gratuite chez NVIDIA et collez-la ici. Ou jouez la démo sans clé.
+brick_add	Ajouter une brique
+brick_comment	Votre note à l'IA sur cette brique :
+brick_connected	Connecté à :
+brick_nothing	Rien de connecté pour l'instant
+graph_empty	Aucune brique — décrivez un jeu ci-dessus ou ajoutez des briques depuis la palette.
+validate_no_spawn	Ajoutez une brique Spawn pour que votre jeu ait du contenu.
+ai_thinking	L'IA conçoit votre jeu...
+ai_failed	L'IA n'a pas réussi. Essayez de décrire autrement.
+export_done	Jeu exporté ! Partagez le fichier avec qui vous voulez.
+close	Fermer
+cancel	Annuler
+ok	OK
+recommended	(Recommandé)
+brick_copy	Copier
+brick_paste	Coller
+brick_duplicate	Dupliquer
+brick_delete	Supprimer
+brick_copied	Copié
+brick_pasted	Collé
+brick_settings	Réglages
+ai_edit	Modifier avec l'IA
+ai_edit_placeholder	Ex. : « ajoute un ennemi » ou « rends-le plus difficile »
+ai_edit_apply	Appliquer
+undo	Annuler
+ai_edit_done	L'IA a mis à jour votre jeu. Appuyez sur Jouer pour l'essayer.
+ai_edit_nothing	L'IA n'a pas pu appliquer ce changement. Essayez une autre formulation.
+undo_done	Dernier changement de l'IA annulé.
+redo	Rétablir
+search_bricks	Rechercher des briques…
+search_no_bricks	Aucune brique ne correspond. Essayez un autre mot.
+suggest_next	Essayez d'ajouter :
+export_web	Publier sur le Web
+export_web_tip	Créez une version jouable dans le navigateur, à partager par lien
+export_web_running	Création de la version Web... cela prend une minute.
+export_web_done	Version Web créée ! Ouverture du dossier build/web.
+export_web_notemplates	"L’export Web nécessite les modèles Web de Godot (téléchargement unique). Installez-les depuis godotengine.org puis exécutez : godot --headless --export-release ""Web"" build/web/index.html"
+export_web_no_source	La publication Web nécessite le dossier EasyForge avec ses fichiers de projet (tools/ et project.godot). Lancez EasyForge depuis ce dossier et réessayez.
+export_web_templates_missing	La version Web requiert les modèles Web de Godot (téléchargement unique) : dans l'éditeur Godot, ouvrez Projet > Gérer les modèles d'exportation > Télécharger et installer, puis réessayez.
+export_web_failed	La création de la version Web s'est arrêtée avec une erreur. Réessayez ; si le problème persiste, lancez le même export depuis l'éditeur Godot pour voir les détails.
+export_web_readme	{game} - créé avec EasyForge. Les navigateurs bloquent les jeux ouverts directement sur le disque : 1) téléversez ce dossier entier sur un hébergeur statique (itch.io convient très bien) et partagez le lien ; ou 2) lancez un petit serveur web local dans ce dossier et ouvrez l'adresse affichée. Créé avec EasyForge.
+preview_live	Aperçu en direct — appuyez sur Jouer pour la fenêtre entière
+redo_done	Changement rétabli.
+added_brick	Ajouté :
+added_brick_hint	Reliez-la à une autre brique pour dire ce qui vient ensuite.
+brick_deleted	Brique supprimée. Appuyez sur Annuler pour la récupérer.
+pick_brick_first	Choisissez d'abord une brique, puis utilisez cette touche.
+rename_brick	Donnez un nom à la brique
+rename_brick_tip	Choisissez un nom qui vous parle
+wire_connected	Connecté. Appuyez sur Jouer pour voir le résultat.
+wire_rejected	Ces deux briques ne peuvent pas être reliées. Essayez une autre paire.
+wire_removed	Liaison supprimée.
+saved_ok	Enregistré !
+restored_project	Bon retour dans votre jeu
+backed_up	votre jeu précédent est gardé dans Ouvrir
+autosave	Dernière sauvegarde auto
+open_project	Ouvrir un jeu enregistré
+opened	Ouvert
+open_failed	Impossible d'ouvrir ce jeu.
+open_none	Aucun jeu enregistré pour l'instant. Appuyez sur Ctrl+S pour enregistrer.
+ai_draft_done	Votre jeu est prêt ! Appuyez sur Jouer pour l'essayer.
+tidy_ai	Ranger avec l'IA
+tidy_ai_tip	Demandez à l'IA de remettre les liaisons au propre pour que le jeu tourne
+help_title	Comment fonctionne EasyForge
+help_1	1. Décrivez votre jeu avec des mots simples en haut à gauche, puis appuyez sur Créer avec l'IA.
+help_2	2. Votre jeu apparaît en briques sur le canevas. Chaque brique fait une chose, comme se déplacer ou compter les points.
+help_3	3. Glissez du côté droit d'une brique vers le côté gauche d'une autre pour dire ce qui vient ensuite.
+help_4	4. Appuyez sur Jouer pour essayer votre jeu ici même. Appuyez sur Esc ou Arrêter pour revenir à l'édition.
+help_5	5. Envie d'un changement ? Écrivez-le dans la box Modifier avec l'IA, par exemple « rends-le plus difficile ».
+help_shortcuts	Touches : Ctrl+Z annuler, Ctrl+Shift+Z rétablir, Ctrl+C copier, Ctrl+V coller, Ctrl+D dupliquer, Ctrl+S enregistrer, Suppr enlève une brique, Esc arrête le jeu, + / - / 0 zoom, WASD ou flèches déplacent le canevas.
+help_tip	Rien n'est définitif ici — chaque brique peut être modifiée ou supprimée plus tard.
+export_game_copying	Copie du lecteur pour que votre jeu fonctionne seul...
+export_game_done	Votre jeu est prêt à envoyer ! Le dossier s'ouvre.
+export_game_failed_copy	Impossible de copier les fichiers du jeu. Fermez les fenêtres qui les utilisent et réessayez.
+export_game_failed_dir	Impossible de créer le dossier de votre jeu. Vérifiez l'espace disque et réessayez.
+export_game_failed_save	Impossible d'enregistrer votre jeu dans ce dossier. Réessayez.
+export_game_incomplete	Il manque un fichier dans le dossier exporté. Appuyez de nouveau sur le bouton fusée.
+export_game_no_player	Le lecteur de jeu est introuvable dans EasyForge. Lancez EasyForge depuis son propre dossier puis réessayez.
+export_game_readme	Comment jouer à {game} : double-cliquez sur {game}.exe sur n'importe quel PC Windows, sans installation ni internet. Appuyez sur Esc pour arrêter. Créé avec EasyForge.
+export_game_tip	Créez un fichier de jeu à envoyer à un ami — double-clic et on joue
+export_game_writing	Enregistrement de votre jeu...
+quit	Quitter le jeu
+save_failed	Enregistrement impossible. Réessayez.
+save_game_file_tip	Enregistrez le fichier de votre jeu
+ai_model	Modèle d'IA
+
+ai_edit_needed	Indiquez d'abord ce que vous voulez changer.
+lives	Vies
+
+net_error	Impossible de joindre l'IA. Vérifiez votre connexion.
+provider_error	Le fournisseur d'IA a renvoyé l'erreur %d.
+model_unavailable	Ce modèle n'est pas disponible. Ouvrez les Paramètres et choisissez-en un autre.
+rate_limited	La limite gratuite est atteinte. Attendez une minute et réessayez.
+bad_reply	L'IA a renvoyé quelque chose d'illisible. Réessayez.
+model_custom	…ou saisissez un modèle de votre fournisseur
+
+ai_thinking_empty	ce modèle réfléchit avant de répondre, il peut être lent
+ai_cut_off	L'IA a manqué de place avant de terminer. Essayez une idée plus courte ou un modèle plus rapide dans les Paramètres.
+
+describe_short	Décrivez votre jeu
+manual_title	Manuel
+manual_tip	Ouvrir le manuel — chaque brique, chaque réglage, F1
+open_manual_page	Lire la notice de cette brique
+related_bricks	Se combine bien avec
+name_game	Donne un nom à ton jeu
+name_game_tip	Ce sera le titre de la fenêtre, le fichier de sauvegarde et le nom du jeu que tu partages.
+dimension_2d	2D (à plat)
+dimension_3d	3D (en volume)
+dimension_now	Le jeu est maintenant
+dimension_tip	Un jeu à défilement horizontal, ou un monde où l'on se déplace. Change quand tu veux — tes briques restent.
+generate_tip	Transforme ce que tu as écrit en briques modifiables
+new_short	Nouveau
+open_short	Ouvrir
+save_short	Enregistrer
+share_short	Partager
+web_short	Web (navigateur)
+problems_title	À corriger
+problems_click_hint	clique une ligne pour montrer la brique
+problem_error_tip	Celui-ci bloque Lecture
+problem_warn_tip	Un conseil — Lecture marche quand même, mais le résultat peut surprendre
+problem_jump_tip	Clique pour sélectionner et montrer la brique concernée
+canvas_empty	Rien ici pour l'instant. Clique une brique à gauche pour l'ajouter, ou décris ton idée.
+canvas_empty_play	Rien à jouer pour l'instant — ajoute d'abord une brique Personnage.
+play_build_failed	Impossible d'en faire un jeu — la liste sous le canevas explique pourquoi.
+search_bricks_tip	Cherche toutes les briques, même les spécialisées cachées — essaie « mourir », « ennemi » ou « menu »
+search_try_words	Utilise un mot simple pour ce que tu veux : « sauter », « mourir », « pièce », « menu ».
+show_every_brick	Montrer toutes les briques
+show_every_brick_tip	Coche pour afficher aussi les briques spécialisées (lumière, physique, modèles).
+show_more_bricks	Montrer les briques spécialisées
+fit_view_tip	Afficher tout le jeu à l'écran
+zoom_in_tip	Zoom avant
+zoom_out_tip	Zoom arrière
+tidy_layout_tip	Ranger les briques dans l'ordre de lecture
+tidy_layout_done	Briques rangées dans l'ordre où le jeu les exécute
+node_settings_tip	Afficher et modifier les réglages de cette brique
+brick_comment_tip	Une note pour toi. L'IA la lit quand tu demandes des modifications.
+add_these_bricks	Ajouter ces briques
+recipe_undo_hint	Ctrl+Z annule l'ajout.
+tutorial_try_recipes	Montre-moi les recettes
+language_applies_note	Langue enregistrée. Les boutons changeront au prochain démarrage ; le texte de ton jeu ne bouge pas.
+blank_project	Partir de zéro
+blank_project_pitch	Un canevas vide : ajoute les briques toi-même, une par une.
+prompt_hint	Ton jeu, en une phrase
+chat_hint	Demande une modification
+preview_click_hint	cliquer pour jouer
+canvas_wire_hint	Fais glisser un port à droite d'une brique vers un port à gauche de la suivante. Double-clique dans le vide pour ajouter une brique.
+offline_no_key	Aucune clé IA : ce jeu a été composé depuis la bibliothèque de genres d'EasyForge
+offline_after_ai	L'IA n'a rien fourni : ces briques viennent de la bibliothèque de genres d'EasyForge
+offline_guessed	Je n'ai pas pu deviner le genre, alors je commence avec
+open_now	déjà ouvert

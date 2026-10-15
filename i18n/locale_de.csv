@@ -1,0 +1,180 @@
+key	text
+app_title	EasyForge
+tagline	Beschreibe ein Spiel. Sieh zu, wie es lebendig wird.
+new_project	Neues Spiel
+demo_project	Demo spielen
+describe_prompt	"Beschreibe dein Spiel in einfachen Worten (z. B. „ein 3D-Plattformer, in dem ich Münzen sammle"")"
+generate	Mit KI erstellen
+play	Spielen
+stop	Stoppen
+export	Spiel exportieren
+bricks	Bausteine
+code	Code
+settings	Einstellungen
+language	Sprache
+ai_provider	KI-Anbieter
+api_key	API-Schlüssel
+test_key	Schlüssel testen
+get_key	Kostenlosen Schlüssel holen
+key_ok	Schlüssel funktioniert!
+key_bad	Schlüssel abgelehnt — prüfe, ob du den ganzen Schlüssel kopiert hast.
+key_testing	Schlüssel wird getestet...
+save	Speichern
+load	Laden
+help	Hilfe
+tutorial_start	Tutorial starten
+tutorial_welcome	Willkommen bei EasyForge! Diese Demo nutzt alle 5 Kern-Bausteine. Drücke Spielen, ändere dann einen Baustein und sieh das Spiel sich verändern.
+score	Punkte
+you_win	DU HAST GEWONNEN!
+game_over	Spiel vorbei
+no_key_title	KI-Schlüssel hinzufügen
+no_key_body	Hol dir einen kostenlosen Schlüssel von NVIDIA und füge ihn hier ein. Oder spiele die Demo ohne Schlüssel.
+brick_add	Baustein hinzufügen
+brick_comment	Deine Notiz an die KI zu diesem Baustein:
+brick_connected	Verbunden mit:
+brick_nothing	Noch nichts verbunden
+graph_empty	Noch keine Bausteine — beschreibe oben ein Spiel oder füge Bausteine aus der Palette hinzu.
+validate_no_spawn	Füge einen Spawn-Baustein hinzu, damit dein Spiel Inhalt hat.
+ai_thinking	Die KI entwirft dein Spiel...
+ai_failed	Die KI konnte das nicht bauen. Beschreibe es anders.
+export_done	Spiel exportiert! Teile die Datei mit wem du willst.
+close	Schließen
+cancel	Abbrechen
+ok	OK
+recommended	(Empfohlen)
+brick_copy	Kopieren
+brick_paste	Einfügen
+brick_duplicate	Duplizieren
+brick_delete	Löschen
+brick_copied	Kopiert
+brick_pasted	Eingefügt
+brick_settings	Einstellungen
+ai_edit	Mit KI bearbeiten
+ai_edit_placeholder	"Zum Beispiel „einen Gegner hinzufügen"" oder „schwieriger machen"""
+ai_edit_apply	Anwenden
+undo	Rückgängig
+ai_edit_done	Die KI hat dein Spiel aktualisiert. Drücke Spielen, um es zu testen.
+ai_edit_nothing	Die KI konnte diese Änderung nicht umsetzen. Formuliere es anders.
+undo_done	Die letzte KI-Änderung wurde rückgängig gemacht.
+redo	Wiederholen
+search_bricks	Bausteine suchen…
+search_no_bricks	Kein Baustein gefunden. Versuche ein anderes Wort.
+suggest_next	Füge mal hinzu:
+export_web	Im Web veröffentlichen
+export_web_tip	Erstelle eine Version, die im Browser läuft und die du als Link teilen kannst
+export_web_running	Die Web-Version wird erstellt... das dauert eine Minute.
+export_web_done	Web-Version fertig! Der Ordner build/web wird geöffnet.
+export_web_notemplates	"Der Web-Export braucht die Godot-Web-Templates (einmaliger Download). Installiere sie von godotengine.org und führe aus: godot --headless --export-release ""Web"" build/web/index.html"
+export_web_no_source	Die Web-Veröffentlichung braucht den EasyForge-Ordner mit den Projektdateien (tools/ und project.godot). Starte EasyForge aus diesem Ordner und versuche es erneut.
+export_web_templates_missing	Der Web-Build benötigt Godots Web-Vorlagen (einmaliger Download): Öffne im Godot-Editor Projekt > Exportvorlagen verwalten > Herunterladen und installieren, dann erneut versuchen.
+export_web_failed	Der Web-Build hat mit einem Fehler abgebrochen. Versuche es erneut; wenn der Fehler bleibt, führe denselben Export im Godot-Editor aus, um Details zu sehen.
+export_web_readme	{game} - erstellt mit EasyForge. Browser blockieren Spiele, die direkt von der Festplatte geöffnet werden: 1) lade diesen ganzen Ordner auf einen kostenlosen Hoster wie itch.io hoch und teile den Link; oder 2) starte einen kleinen lokalen Webserver in diesem Ordner und öffne die angezeigte Adresse. Erstellt mit EasyForge.
+preview_live	Live-Vorschau — drücke Spielen für das volle Fenster
+redo_done	Änderung wiederholt.
+added_brick	Hinzugefügt:
+added_brick_hint	Verbinde ihn mit einem anderen Baustein, um festzulegen, was als Nächstes passiert.
+brick_deleted	Baustein gelöscht. Drücke Rückgängig, um ihn zurückzuholen.
+pick_brick_first	Erst einen Baustein anklicken, dann diese Taste drücken.
+rename_brick	Benenne diesen Baustein
+rename_brick_tip	Gib ihm einen Namen, der dir etwas sagt
+wire_connected	Verbunden. Drücke Spielen, um zu sehen, wie es läuft.
+wire_rejected	Diese beiden Bausteine lassen sich nicht verbinden. Versuche ein anderes Paar.
+wire_removed	Verbindung entfernt.
+saved_ok	Gespeichert!
+restored_project	Willkommen zurück bei deinem Spiel
+backed_up	dein vorheriges Spiel ist unter Öffnen gesichert
+autosave	Letzte automatische Speicherung
+open_project	Gespeichertes Spiel öffnen
+opened	Geöffnet
+open_failed	Das ließ sich nicht öffnen.
+open_none	Noch keine gespeicherten Spiele. Drücke Ctrl+S zum Speichern.
+ai_draft_done	Dein Spiel ist fertig! Drücke Spielen, um es zu testen.
+tidy_ai	Mit KI aufräumen
+tidy_ai_tip	Lass die KI die Verbindungen ordnen, damit dein Spiel richtig läuft
+help_title	So funktioniert EasyForge
+help_1	1. Beschreibe dein Spiel oben links in einfachen Worten und drücke Mit KI erstellen.
+help_2	2. Dein Spiel erscheint als Bausteine auf der Fläche. Jeder Baustein steht für eine Sache, z. B. Bewegen oder Punkte zählen.
+help_3	3. Ziehe eine Linie von der rechten Seite eines Bausteins zur linken Seite eines anderen, um festzulegen, was danach passiert.
+help_4	4. Drücke Spielen, um dein Spiel hier direkt zu testen. Drücke Esc oder Stoppen, um weiterzuarbeiten.
+help_5	5. Du willst etwas ändern? Schreib es ins Feld Mit KI bearbeiten, zum Beispiel „schwieriger machen“.
+help_shortcuts	Tasten: Ctrl+Z rückgängig, Ctrl+Umschalt+Z wiederholen, Ctrl+C kopieren, Ctrl+V einfügen, Ctrl+D duplizieren, Ctrl+S speichern, Entf entfernt einen Baustein, Esc stoppt das Spiel, + / - / 0 Zoom, WASD oder Pfeile bewegen die Fläche.
+help_tip	Nichts ist endgültig — jeden Baustein kannst du später ändern oder löschen.
+export_game_copying	Der Spieler wird kopiert, damit dein Spiel allein läuft...
+export_game_done	Dein Spiel ist fertig zum Verschicken! Der Ordner wird geöffnet.
+export_game_failed_copy	Die Spieldateien konnten nicht kopiert werden. Schließe die Fenster, die sie nutzen, und versuche es erneut.
+export_game_failed_dir	Der Ordner für dein Spiel konnte nicht angelegt werden. Prüfe den Speicherplatz und versuche es erneut.
+export_game_failed_save	Dein Spiel konnte nicht in diesen Ordner gespeichert werden. Versuche es erneut.
+export_game_incomplete	Im exportierten Ordner fehlt eine Datei. Drücke noch einmal den Raketen-Knopf.
+export_game_no_player	Der Spieler wurde in EasyForge nicht gefunden. Starte EasyForge aus seinem eigenen Ordner und versuche es erneut.
+export_game_readme	So spielst du {game}: Doppelklick auf {game}.exe auf jedem Windows-PC — ohne Installation und ohne Internet. Drücke Esc zum Stoppen. Gemacht mit EasyForge.
+export_game_tip	Erstelle eine Spieldatei zum Verschicken — Doppelklick und los
+export_game_writing	Dein Spiel wird gespeichert...
+quit	Spiel verlassen
+save_failed	Das konnte nicht gespeichert werden. Versuche es erneut.
+save_game_file_tip	Speichere deine Spieldatei
+ai_model	KI-Modell
+
+ai_edit_needed	Sag zuerst, was du ändern möchtest.
+lives	Leben
+
+net_error	Die KI ist nicht erreichbar. Prüfe dein Internet.
+provider_error	Der KI-Anbieter meldete Fehler %d.
+model_unavailable	Dieses Modell ist nicht verfügbar. Öffne die Einstellungen und wähle ein anderes.
+rate_limited	Das Gratis-Limit ist erreicht. Warte eine Minute und versuch es erneut.
+bad_reply	Die KI hat etwas Unlesbares zurückgeschickt. Versuch es erneut.
+model_custom	…oder gib ein Modell deines Anbieters ein
+
+ai_thinking_empty	dieses Modell denkt vor der Antwort, es kann dauern
+ai_cut_off	Der KI ging der Platz aus, bevor sie fertig war. Versuch eine kürzere Idee oder ein schnelleres Modell in den Einstellungen.
+
+describe_short	Beschreibe dein Spiel
+manual_title	Handbuch
+manual_tip	Handbuch öffnen — jeder Baustein, jede Einstellung, F1
+open_manual_page	Über diesen Baustein nachlesen
+related_bricks	Gut zusammen mit
+name_game	Gib deinem Spiel einen Namen
+name_game_tip	Das wird Fenstertitel, Speicherstand und der Name des Spiels, das du weitergibst.
+dimension_2d	2D (flach)
+dimension_3d	3D (räumlich)
+dimension_now	Das Spiel ist jetzt
+dimension_tip	Ein flaches Seitenscroll-Spiel oder eine Welt, in der du herumlaufen kannst. Jederzeit wechselbar — deine Bausteine bleiben.
+generate_tip	Verwandelt dein Geschriebenes in bearbeitbare Bausteine
+new_short	Neu
+open_short	Öffnen
+save_short	Speichern
+share_short	Teilen
+web_short	Web (Browser)
+problems_title	Was zu verbessern ist
+problems_click_hint	Zeile drücken, um den Baustein zu zeigen
+problem_error_tip	Das blockiert das Starten
+problem_warn_tip	Ein Hinweis — Starten geht trotzdem, es verhält sich nur vielleicht anders
+problem_jump_tip	Drücken, um den betreffenden Baustein auszuwählen und zu zeigen
+canvas_empty	Hier ist noch nichts. Drücke links einen Baustein, um ihn zu setzen, oder beschreibe deine Idee.
+canvas_empty_play	Es gibt noch nichts zu spielen — füge zuerst einen Charakter-Baustein hinzu.
+play_build_failed	Daraus ließ sich kein Spiel bauen — die Liste unter der Fläche sagt warum.
+search_bricks_tip	Sucht alle Bausteine, auch die versteckten Spezialisten — versuche „sterben“, „Bösewicht“ oder „Menü“
+search_try_words	Nimm ein einfaches Wort für das, was du willst: „springen“, „sterben“, „Münze“, „Menü“.
+show_every_brick	Alle Bausteine zeigen
+show_every_brick_tip	Aktiviere das, um auch Spezial-Bausteine (Licht, Physik, Vorlagen) in der Liste zu sehen.
+show_more_bricks	Die Spezial-Bausteine zeigen
+fit_view_tip	Das ganze Spiel auf den Bildschirm bringen
+zoom_in_tip	Vergrößern
+zoom_out_tip	Verkleinern
+tidy_layout_tip	Bausteine in Lesereihenfolge anordnen
+tidy_layout_done	Bausteine in Ablaufreihenfolge angeordnet
+node_settings_tip	Einstellungen dieses Bausteins zeigen und ändern
+brick_comment_tip	Eine Notiz für dich. Die KI liest sie, wenn du nach Änderungen fragst.
+add_these_bricks	Diese Bausteine hinzufügen
+recipe_undo_hint	Strg+Z nimmt es zurück.
+tutorial_try_recipes	Zeig mir die Rezepte
+language_applies_note	Sprache gespeichert. Die Knöpfe ändern sich beim nächsten Start; der Text deines Spiels bleibt unverändert.
+blank_project	Ganz von vorn
+blank_project_pitch	Eine leere Fläche: füge die Bausteine selbst einzeln hinzu.
+prompt_hint	Dein Spiel, in einem Satz
+chat_hint	Bitte um eine Änderung
+preview_click_hint	Klicken zum Spielen
+canvas_wire_hint	Vom Port rechts an einem Baustein zum Port links am nächsten ziehen. Doppelklick auf freie Fläche fügt einen Baustein hinzu.
+offline_no_key	Kein KI-Schlüssel, deshalb wurde dieses Spiel aus EasyForges eigener Genrebibliothek gebaut
+offline_after_ai	Die KI hat es nicht gebracht — diese Bausteine kommen aus EasyForges eigener Genrebibliothek
+offline_guessed	Ich konnte das Genre nicht erkennen, deshalb starte ich mit
+open_now	geöffnet

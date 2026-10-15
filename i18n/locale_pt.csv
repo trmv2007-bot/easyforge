@@ -1,0 +1,180 @@
+key	text
+app_title	EasyForge
+tagline	Descreva um jogo. Veja-o ganhar vida.
+new_project	Novo jogo
+demo_project	Jogar a demo
+describe_prompt	"Descreva seu jogo em palavras simples (ex. ""um plataforma 3D onde coleto moedas"")"
+generate	Criar com IA
+play	Jogar
+stop	Parar
+export	Exportar jogo
+bricks	Blocos
+code	Código
+settings	Configurações
+language	Idioma
+ai_provider	Provedor de IA
+api_key	Chave API
+test_key	Testar chave
+get_key	Obter chave grátis
+key_ok	A chave funciona!
+key_bad	Chave rejeitada — confira se copiou a chave inteira.
+key_testing	Testando chave...
+save	Salvar
+load	Carregar
+help	Ajuda
+tutorial_start	Iniciar tutorial
+tutorial_welcome	Bem-vindo ao EasyForge! Esta demo usa os 5 blocos principais. Pressione Jogar, depois edite um bloco e veja o jogo mudar.
+score	Pontos
+you_win	VOCÊ GANHOU!
+game_over	Fim de jogo
+no_key_title	Adicione sua chave de IA
+no_key_body	Pegue uma chave grátis da NVIDIA e cole aqui. Ou jogue a demo sem chave.
+brick_add	Adicionar bloco
+brick_comment	Sua nota para a IA sobre este bloco:
+brick_connected	Conectado a:
+brick_nothing	Nada conectado ainda
+graph_empty	Ainda não há blocos — descreva um jogo acima ou adicione blocos da paleta.
+validate_no_spawn	Adicione um bloco Spawn para seu jogo ter algo.
+ai_thinking	A IA está criando seu jogo...
+ai_failed	A IA não conseguiu. Tente descrever de outra forma.
+export_done	Jogo exportado! Compartilhe o arquivo com quem quiser.
+close	Fechar
+cancel	Cancelar
+ok	OK
+recommended	(Recomendado)
+brick_copy	Copiar
+brick_paste	Colar
+brick_duplicate	Duplicar
+brick_delete	Excluir
+brick_copied	Copiado
+brick_pasted	Colado
+brick_settings	Configurações
+ai_edit	Editar com IA
+ai_edit_placeholder	"Ex.: ""adicione um inimigo"" ou ""deixe mais difícil"""
+ai_edit_apply	Aplicar
+undo	Desfazer
+ai_edit_done	A IA atualizou seu jogo. Pressione Jogar para testar.
+ai_edit_nothing	A IA não conseguiu aplicar essa mudança. Tente escrever de outro jeito.
+undo_done	Última mudança da IA desfeita.
+redo	Refazer
+search_bricks	Pesquisar blocos…
+search_no_bricks	Nenhum bloco corresponde. Tente outra palavra.
+suggest_next	Tente adicionar:
+export_web	Publicar na web
+export_web_tip	Crie uma versão que roda no navegador e que você pode compartilhar por link
+export_web_running	Gerando a versão web... leva um minuto.
+export_web_done	Versão web pronta! Abrindo a pasta build/web.
+export_web_notemplates	"A exportação para web precisa dos templates web do Godot (download único). Instale-os pelo godotengine.org e execute: godot --headless --export-release ""Web"" build/web/index.html"
+export_web_no_source	Publicar na web precisa da pasta do EasyForge com os arquivos do projeto (tools/ e project.godot). Execute o EasyForge dessa pasta e tente de novo.
+export_web_templates_missing	A versão web precisa dos templates web do Godot (download único): no editor do Godot, abra Projeto > Gerenciar templates de exportação > Baixar e instalar e tente novamente.
+export_web_failed	A compilação web parou com um erro. Tente de novo; se continuar, execute a mesma exportação no editor do Godot para ver os detalhes.
+export_web_readme	{game} - criado com EasyForge. Os navegadores bloqueiam jogos abertos direto do disco: 1) envie esta pasta inteira para qualquer hospedagem estática (itch.io funciona muito bem) e compartilhe o link; ou 2) rode um pequeno servidor web local nesta pasta e abra o endereço mostrado. Criado com EasyForge.
+preview_live	Pré-visualização ao vivo — pressione Jogar para a janela inteira
+redo_done	Mudança refeita.
+added_brick	Adicionado:
+added_brick_hint	Conecte-o a outro bloco para dizer o que vem depois.
+brick_deleted	Bloco excluído. Pressione Desfazer para trazê-lo de volta.
+pick_brick_first	Escolha primeiro um bloco e então use essa tecla.
+rename_brick	Dê um nome ao bloco
+rename_brick_tip	Escolha um nome que você entenda
+wire_connected	Conectado. Agora pressione Jogar para ver funcionar.
+wire_rejected	Esses dois blocos não podem ser conectados. Tente outro par.
+wire_removed	Conexão removida.
+saved_ok	Salvo!
+restored_project	Bem-vindo de volta ao seu jogo
+backed_up	seu jogo anterior está guardado em Abrir
+autosave	Último salvamento automático
+open_project	Abrir jogo salvo
+opened	Aberto
+open_failed	Não foi possível abrir esse jogo.
+open_none	Nenhum jogo salvo ainda. Pressione Ctrl+S para salvar.
+ai_draft_done	Seu jogo está pronto! Pressione Jogar para testar.
+tidy_ai	Ajeitar com IA
+tidy_ai_tip	Peça à IA para ajeitar as ligações e o jogo funcionar direito
+help_title	Como o EasyForge funciona
+help_1	1. Descreva seu jogo com palavras simples no canto superior esquerdo e pressione Criar com IA.
+help_2	2. Seu jogo aparece como blocos na tela. Cada bloco faz uma coisa, como mover ou contar pontos.
+help_3	3. Arraste do lado direito de um bloco para o lado esquerdo de outro para dizer o que acontece depois.
+help_4	4. Pressione Jogar para testar seu jogo aqui mesmo. Pressione Esc ou Parar para voltar a editar.
+help_5	"5. Quer mudar algo? Escreva no campo Editar com IA, por exemplo ""deixe mais difícil""."
+help_shortcuts	Teclas: Ctrl+Z desfazer, Ctrl+Shift+Z refazer, Ctrl+C copiar, Ctrl+V colar, Ctrl+D duplicar, Ctrl+S salvar, Delete tira um bloco, Esc para o jogo, + / - / 0 zoom, WASD ou setas movem a tela.
+help_tip	Nada aqui é definitivo — todo bloco pode ser mudado ou removido depois.
+export_game_copying	Copiando o jogador para que seu jogo rode sozinho...
+export_game_done	Seu jogo está pronto para enviar! A pasta está abrindo.
+export_game_failed_copy	Não foi possível copiar os arquivos do jogo. Feche as janelas que os usam e tente de novo.
+export_game_failed_dir	Não foi possível criar a pasta do seu jogo. Veja o espaço em disco e tente de novo.
+export_game_failed_save	Não deu para salvar seu jogo nessa pasta. Tente novamente.
+export_game_incomplete	Falta um arquivo na pasta exportada. Pressione o botão do foguete de novo.
+export_game_no_player	Não encontramos o jogador do jogo dentro do EasyForge. Rode o EasyForge da própria pasta dele e tente de novo.
+export_game_readme	Como jogar {game}: dê dois cliques em {game}.exe em qualquer PC com Windows — sem instalar nada e sem internet. Pressione Esc para parar. Feito com EasyForge.
+export_game_tip	Crie um arquivo de jogo para mandar a um amigo — dois cliques e pronto
+export_game_writing	Salvando seu jogo...
+quit	Sair do jogo
+save_failed	Não foi possível salvar. Tente de novo.
+save_game_file_tip	Salve o arquivo do seu jogo
+ai_model	Modelo de IA
+
+ai_edit_needed	Diga primeiro o que quer mudar.
+lives	Vidas
+
+net_error	Não consegui falar com a IA. Verifique sua internet.
+provider_error	O provedor de IA retornou erro %d.
+model_unavailable	Esse modelo não está disponível. Abra Configurações e escolha ou digite outro.
+rate_limited	O limite gratuito foi atingido. Espere um minuto e tente de novo.
+bad_reply	A IA devolveu algo ilegível. Tente novamente.
+model_custom	…ou digite um modelo do seu provedor
+
+ai_thinking_empty	este modelo pensa antes de responder, pode demorar
+ai_cut_off	A IA ficou sem espaço antes de terminar. Tente uma ideia mais curta ou um modelo mais rápido nas Configurações.
+
+describe_short	Descreva seu jogo
+manual_title	Guia
+manual_tip	Abrir o manual — cada bloco, cada ajuste, F1
+open_manual_page	Ler sobre este bloco
+related_bricks	Combina com
+name_game	Dê um nome ao seu jogo
+name_game_tip	Esse nome vira o título da janela, o arquivo salvo e o jogo que você compartilhar.
+dimension_2d	2D (plano)
+dimension_3d	3D (com volume)
+dimension_now	O jogo agora é
+dimension_tip	Um jogo de rolagem lateral, ou um mundo onde você anda. Troque quando quiser — seus blocos ficam.
+generate_tip	Transforma o que você escreveu em blocos editáveis
+new_short	Novo
+open_short	Abrir
+save_short	Salvar
+share_short	Compartilhar
+web_short	Web (navegador)
+problems_title	O que precisa de conserto
+problems_click_hint	clique numa linha para achar o bloco
+problem_error_tip	Isto impede o Jogar
+problem_warn_tip	Um aviso — Jogar funciona, mas pode não sair como você espera
+problem_jump_tip	Clique para selecionar e mostrar o bloco envolvido
+canvas_empty	Ainda não tem nada aqui. Clique num bloco à esquerda para adicionar, ou descreva sua ideia.
+canvas_empty_play	Nada para jogar ainda — adicione primeiro um bloco de Personagem.
+play_build_failed	Não deu para montar um jogo — a lista abaixo do quadro explica o motivo.
+search_bricks_tip	Procura todos os blocos, inclusive os especializados escondidos — tente 'morrer', 'inimigo' ou 'menu'
+search_try_words	Use uma palavra simples do que você quer: 'pular', 'morrer', 'moeda', 'menu'.
+show_every_brick	Mostrar todos os blocos
+show_every_brick_tip	Marque para listar também os blocos especializados (luz, física, modelos).
+show_more_bricks	Mostrar os blocos especializados
+fit_view_tip	Ver o jogo inteiro na tela
+zoom_in_tip	Aumentar o zoom
+zoom_out_tip	Diminuir o zoom
+tidy_layout_tip	Organizar os blocos em ordem de leitura
+tidy_layout_done	Blocos organizados na ordem que o jogo executa
+node_settings_tip	Mostrar e mudar os ajustes deste bloco
+brick_comment_tip	Um recado para você. A IA lê isso quando você pede mudanças.
+add_these_bricks	Adicionar estes blocos
+recipe_undo_hint	Ctrl+Z desfaz.
+tutorial_try_recipes	Me mostre as receitas
+language_applies_note	Idioma salvo. Os botões mudam na próxima abertura; o texto do seu jogo não muda.
+blank_project	Começar do zero
+blank_project_pitch	Um quadro vazio: adicione os blocos você mesmo, um por vez.
+prompt_hint	Seu jogo, em uma frase
+chat_hint	Peça uma mudança
+preview_click_hint	clique para jogar
+canvas_wire_hint	Arraste de uma porta à direita de um bloco para uma porta à esquerda do próximo. Clique duplo no vazio adiciona um bloco.
+offline_no_key	Sem chave de IA: este jogo foi montado a partir da biblioteca de gêneros do EasyForge
+offline_after_ai	A IA não entregou: estes blocos vêm da biblioteca de gêneros do EasyForge
+offline_guessed	Não deu para saber o gênero, então começo com
+open_now	já aberto
